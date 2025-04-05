@@ -10,6 +10,7 @@ import "./App.css"
 import Map from "./components/map";
 import Prop from "./components/Prop";
 import PassingData from "./components/PassingData";
+import UseRefHook from "./components/UseRefHook";
 
 function App() {
   return <div>
@@ -39,6 +40,7 @@ function App() {
       <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Cum eligendi perferendis odio magnam sit commodi dolor veritatis ratione, cumque vitae id tempora provident amet, nesciunt assumenda rem, sunt labore nam.</p>
     </PassingData> */}
     
+    <UseRefHook/>
 
   </div>
 }
