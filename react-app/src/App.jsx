@@ -11,6 +11,9 @@ import Map from "./components/map";
 import Prop from "./components/Prop";
 import PassingData from "./components/PassingData";
 import UseRefHook from "./components/UseRefHook";
+import SpreadOpe from "./components/SpreadOpe";
+import ContextApi from "./components/ContextApi";
+import UseReducer from "./components/UseReducer";
 
 function App() {
   return <div>
@@ -41,6 +44,9 @@ function App() {
     </PassingData> */}
     
     <UseRefHook/>
+    {/* <SpreadOpe/> */}
+    {/* <ContextApi/> */}
+    <UseReducer/>
 
   </div>
 }
